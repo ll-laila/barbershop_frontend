@@ -19,7 +19,7 @@ const Appointment = ()  => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:8099/appointments/add", {
+    fetch("https://barbershop-backend-dlbc.onrender.com/appointments/add", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
